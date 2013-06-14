@@ -8,7 +8,9 @@ body, html
 
 html
 {
-    background: #f3f2f0 url(../img/pw_pattern_@2X.png);
+    /*background: #f3f2f0 url(../img/pw_pattern_@2X.png);*/
+    background: #f3f2f0 url(../img/bg.png);
+    /*background-size: 20%;*/
 }
 
 body
