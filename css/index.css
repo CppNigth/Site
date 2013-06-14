@@ -8,7 +8,7 @@ body, html
 
 html
 {
-    background: #f3f2f0 url(/img/bg.jpg);
+    background: #f3f2f0 url(../img/bg.jpg);
 }
 
 body
