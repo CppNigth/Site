@@ -335,7 +335,7 @@ header
     -o-box-sizing: border-box;
     box-sizing: border-box;
 
-    background: #f8f5f0;
+    background: url(../img/ps_neutral.png);
     border: 10px solid #fff;
     /*-webkit-box-shadow: 1px 1px 10px #ABABAB;*/
     /*-moz-box-shadow: 1px 1px 10px #ABABAB;*/
