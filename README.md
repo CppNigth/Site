@@ -1,1 +1,3 @@
-[fronttalks.github.com](http://fronttalks.github.com/)
+[cppnigth.github.io/Site/][1]
+
+[1]: http://cppnigth.github.io/Site/
