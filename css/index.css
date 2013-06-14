@@ -47,7 +47,7 @@ header
     display: inline-block;
     vertical-align: middle;
 
-    background: red;
+    background: #218549;
     color: #fff;
 }
 
@@ -108,7 +108,7 @@ header
 .b-head-description__location
 {
     text-decoration: none;
-    color: red;
+    color: #218549;
 }
 
 .b-head-description__location:hover
@@ -437,7 +437,7 @@ header
 .b-speaker__link
 {
     text-decoration: none;
-    color: red;
+    color: #218549;
 }
 
 .b-speaker__link:hover
@@ -520,7 +520,7 @@ footer
 .b-footer-block__link
 {
     text-decoration: none;
-    color: red;
+    color: #218549;
 }
 
 .b-footer-block__link:hover
@@ -530,7 +530,7 @@ footer
 
 a
 {
-    color: red;
+    color: #218549;
     text-decoration: none;
 }
 
