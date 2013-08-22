@@ -45,18 +45,12 @@
 
     <div class="b-speakers">
         <div class="b-speaker">
-            <div class="b-speaker__talk">Boost.Asio</div>
-            <div class="b-speaker__person"><a class="b-speaker__link" href="https://twitter.com/apatrushev">Антон Патрушев</a></div>
+            <div class="b-speaker__talk">Приемы event driven programming на C++</div>
+            <div class="b-speaker__person"><a class="b-speaker__link" href="http://pmanohin.moikrug.ru/">Петр Манохин</a></div>
             <div class="b-speaker__thezises">
-                Все когда-нибудь писали сетевой код. Кто-то даже кроссплатформенный. Граблей там предостаточно. 
-                Асинхронность добавляет в копилку ещё и граблей со стразами.
-                <p>
-                boost.asio - библиотека, которая позволяет сразу решать задачу.
-                А если вдруг ваш "прототип" поедет в продакшн - будьте уверены, вопросы масштабирования удастся довольно эффективно решить.
-                Конечно можно почитать документации, как скажут многие, и этот доклад никоим образом не заменит её чтение.
-                <p>
-                Это обзорный доклад о данной библиотеке, о том как она устроена, о примерах использования.
-                Осторожно ! Я буду показывать куски кода на C++ (хоть это и моветон в "презентациестроении").
+                Событийная часть присутствует почти в любой программе (примеров масса: обработка ввода мыши и клавиатуры, передача данных по сети или другим протоколам,
+                работа с долгими фоновыми операциями и т.п.). Но далеко не всегда реализация идей событийной парадигмы является понятной/расширяемой/модифицируемой.
+                Расскажу о приемах, которые помогают сделать событийное программирование на C++ более легким и приятным.
             </div>
         </div>
         <div class="b-speaker">
@@ -82,7 +76,7 @@
         </div>
         <div class="b-footer-block">
             <div class="b-footer-block__title">Команда</div>
-            <div class="b-footer-block__description">Ekb.cpp организуется силами <a class="b-footer-block__link" href="https://twitter.com/vl4g">Александра&nbsp;Лившица</a>, <a class="b-footer-block__link" href="https://twitter.com/apatrushev">Антона&nbsp;Патрушева</a>, <a class="b-footer-block__link" href="https://twitter.com/VoIrina">Ирины&nbsp;Войчитской</a> и <a class="b-footer-block__link" href="https://twitter.com/SagadievaLilya">Лили&nbsp;Сагадиевой</a>.</div>
+            <div class="b-footer-block__description">Ekb.cpp организуется силами <a class="b-footer-block__link" href="https://twitter.com/vl4g">Александра&nbsp;Лившица</a> и <a class="b-footer-block__link" href="https://twitter.com/VoIrina">Ирины&nbsp;Войчитской</a>.</div>
             <div class="b-footer-block__description">Дизайн 
                 <a href="http://www.twitter.com/m_besser" class="b-footer-block__link">Матти&nbsp;Бессера</a>,
                 <a href="http://www.twitter.com/katemokhova" class="b-footer-block__link">Екатерины&nbsp;Моховой</a> и
