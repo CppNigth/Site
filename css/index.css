@@ -623,3 +623,70 @@ body.shout-page
 {
     right: 0;
 }
+
+/**
+ * «Кнопуля» © Ирина Войчитская
+ */
+.button__wrapper
+{
+    float: right;
+    margin-top: -3px;
+}
+.button
+{
+    font: 28px Arial;
+
+    position: relative;
+
+    display: inline-block;
+
+    text-decoration: none !important;
+
+    color: #fff;
+
+}
+
+.button__inner
+{
+    display: block;
+    padding: 6px 25px;
+
+    background: #44b168;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #72c292 inset, 0 0 0 1px #3a8c55;
+}
+
+.button__back
+{
+    position: absolute;
+    top: 0;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    border-radius: 4px;
+    background: #3a8c55;
+}
+
+.button:hover
+{
+    top: -2px;
+}
+.button:hover .button__back
+{
+    bottom: -5px;
+}
+.button:hover .button__inner
+{
+    background: #4ac071;
+}
+
+.button:active
+{
+    top: 1px;
+}
+.button:active .button__back
+{
+    bottom: -2px;
+}
