@@ -19,6 +19,66 @@ body
 
     max-width: 1140px;
     margin: 0 auto;
+    padding-top: 40px
+}
+
+/* Навигация по истории */
+
+nav
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    font-size: 16px;
+
+    background: #555;
+    color: #fff;
+}
+
+nav a,
+nav .selected,
+nav .inactive
+{
+    padding: 3px 8px;
+
+    display: inline-block;
+
+    color: #fff;
+}
+
+nav .year + *
+{
+    margin-left: -8px;
+}
+
+nav a:hover,
+nav .selected
+{
+    background: #000;
+    text-decoration: none;
+    color: #f2ede7;
+}
+nav .inactive
+{
+    color: #888;
+}
+
+nav .wrapper
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav .wrapper__inner
+{
+    padding: 0 3%;
+}
+nav .wrapper .year
+{
+    margin-right: 12px;
+    margin-top: 3px;
+    color: #aaa;
 }
 
 /* Шапка */
@@ -212,7 +272,6 @@ header
 {
     right: -20px;
 }
-
 
 /* Содержимое */
 .b-next-event
