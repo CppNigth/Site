@@ -394,7 +394,7 @@ header
     -o-box-sizing: border-box;
     box-sizing: border-box;
 
-    background: url(../img/ps_neutral.png);
+    background: url(../img/ps_neutral_new.png);
     border: 10px solid #fff;
     /*-webkit-box-shadow: 1px 1px 10px #ABABAB;*/
     /*-moz-box-shadow: 1px 1px 10px #ABABAB;*/
@@ -430,7 +430,9 @@ header
 
     padding-left: 30px;
 }
-
+.b-speaker__video {
+    margin-top: 10px
+}
 
 .b-speaker__data
 {
