@@ -616,9 +616,20 @@ a:hover
     margin-bottom: 2em;
 }
 
+.b-timetable_type_after-event .b-timetable__item
+{
+    margin-bottom: 4em;
+}
+
 .b-timetable__time
 {
     width: 20%;
+    float: left;
+}
+
+.b-timetable__speaker-foto
+{
+    width: 142px;
     float: left;
 }
 
@@ -635,6 +646,43 @@ a:hover
     margin-top: 0.5em;
 }
 
+.b-timetable__video iframe
+{
+    max-width: 100%;
+}
+
+.b-timetable__video-and-presentation
+{
+    clear: both;
+    white-space: nowrap;
+    margin-top: 1em;
+
+    background: #000;
+}
+.b-timetable__talk
+{
+    padding-bottom: 1em;
+}
+.b-timetable__video-and-presentation .b-timetable__video
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.b-timetable__video-and-presentation .b-timetable__presentation
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 422px;
+}
+
+.b-timetable__people,
+.b-timetable__description,
+.b-timetable__presentation-link
+{
+    font-size: 80%;
+
+    margin-top: 0.5em;
+}
 
 .shout-page
 {
