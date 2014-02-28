@@ -646,6 +646,11 @@ a:hover
     margin-top: 0.5em;
 }
 
+.b-timetable__people2
+{
+    margin-top: 0.5em;
+}
+
 .b-timetable__video iframe
 {
     max-width: 100%;
