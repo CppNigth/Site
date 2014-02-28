@@ -151,8 +151,8 @@ header
     border: 5px solid #e7e0d3;
     color: #223035;
     background: #fff;
-    -webkit-filter: drop-shadow(0 0 5px rgba(59, 59, 59, 0.3));
-    filter: drop-shadow(0 0 5px rgba(59, 59, 59, 0.3));
+    /*-webkit-filter: drop-shadow(0 0 5px rgba(59, 59, 59, 0.3));
+    filter: drop-shadow(0 0 5px rgba(59, 59, 59, 0.3));*/
 }
 .b-head-description_type_smaller
 {
