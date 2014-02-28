@@ -805,3 +805,8 @@ body.shout-page
 {
     bottom: -2px;
 }
+
+.twitter-follow-button
+{
+    vertical-align: middle;
+}
